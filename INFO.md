@@ -1,38 +1,38 @@
-# Template
+# Dark Pink Glass
 
 [![hacs_badge](https://img.shields.io/badge/HACS-Default-orange.svg)](https://github.com/custom-components/hacs)
 
-> Template by TimPihl
+> Dark Pink Glass by TimPihl
 
 ## Screenshots
 
 ### Overview
 
-![Theme - Overview](https://raw.githubusercontent.com/timpihl/template/master/docs/theme-overview.png)
+![Theme - Overview](https://raw.githubusercontent.com/timpihl/lovelace-dark-pink-glass/master/docs/theme-overview.png)
 
 ### Map
 
-![Theme - Map](https://raw.githubusercontent.com/timpihl/template/master/docs/theme-map.png)
+![Theme - Map](https://raw.githubusercontent.com/timpihl/lovelace-dark-pink-glass/master/docs/theme-map.png)
 
 ### Logbook
 
-![Theme - Logbook](https://raw.githubusercontent.com/timpihl/template/master/docs/theme-logbook.png)
+![Theme - Logbook](https://raw.githubusercontent.com/timpihl/lovelace-dark-pink-glass/master/docs/theme-logbook.png)
 
 ### History
 
-![Theme - History](https://raw.githubusercontent.com/timpihl/template/master/docs/theme-history.png)
+![Theme - History](https://raw.githubusercontent.com/timpihl/lovelace-dark-pink-glass/master/docs/theme-history.png)
 
 ### Developer Tools
 
-![Theme - Developer Tools](https://raw.githubusercontent.com/timpihl/template/master/docs/theme-developer-tools.png)
+![Theme - Developer Tools](https://raw.githubusercontent.com/timpihl/lovelace-dark-pink-glass/master/docs/theme-developer-tools.png)
 
 ### Configuration
 
-![Theme - Configuration](https://raw.githubusercontent.com/timpihl/template/master/docs/theme-configuration.png)
+![Theme - Configuration](https://raw.githubusercontent.com/timpihl/lovelace-dark-pink-glass/master/docs/theme-configuration.png)
 
 ### Profile
 
-![Theme - Profile](https://raw.githubusercontent.com/timpihl/template/master/docs/theme-profile.png)
+![Theme - Profile](https://raw.githubusercontent.com/timpihl/lovelace-dark-pink-glass/master/docs/theme-profile.png)
 
 ## Installation
 
@@ -48,8 +48,8 @@ frontend:
 ### HACS
 
 1. Go to the Community Store.
-2. Search for `Template`.
-3. Navigate to `Template` theme.
+2. Search for `Dark Pink Glass`.
+3. Navigate to `Dark Pink Glass` theme.
 4. Press `Install`.
 
 ### Manual
@@ -58,12 +58,12 @@ Clone this repository in your existing (or create it) `themes/` folder.
 
 ```bash
 cd themes/
-git clone https://github.com/timpihl/template.git
+git clone https://github.com/timpihl/lovelace-dark-pink-glass.git
 ```
 
 Or using submodules:
 
 ```bash
 cd themes/
-git submodule add https://github.com/timpihl/template.git
+git submodule add https://github.com/timpihl/lovelace-dark-pink-glass.git
 ```
