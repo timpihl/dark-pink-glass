@@ -1,16 +1,8 @@
----
-#
-# Dark Pink Glass
-#
-
 Dark Pink Glass:
-
   # Change the value below 8px to 0px to remove the rounded corners
   ha-card-border-radius: 8px
-
   # Place the backgrounds in the folder  config/www/images/backgrounds 
   lovelace-background: 'center / cover no-repeat url("/hacsfiles/themes/dark-pink-glass/images/rose.jpg") fixed'
-
   # Main colors
   primary-color: "#aa3151"
   light-primary-color: "#b8536d"
@@ -19,65 +11,54 @@ Dark Pink Glass:
   secondary-background-color: var(--primary-background-color)
   divider-color: "#2c2c2c"
   disabled-color: "#5b5b5b"
-
   # Text colors
   primary-text-color: "#e5e5e5"
   secondary-text-color: var(--disabled-color)
   text-primary-color: "#E5E5E5"
   disabled-text-color: var(--disabled-color)
-
   # Sidebar colors
   sidebar-icon-color: var(--primary-color)
   sidebar-text-color: var(--primary-text-color)
   sidebar-selected-background-color: var(--primary-background-color)
   sidebar-selected-icon-color: var(--light-primary-color)
   sidebar-selected-text-color: var(--sidebar-selected-icon-color)
-
   # Icons colors
   state-icon-color: var(--disabled-color)
   state-icon-active-color: var(--primary-color)
   state-icon-unavailable-color: var(--primary-background-color)
-
   # Settins and colors of Mini Media Player
   mini-media-player-icon-color: var(--primary-color)
   mini-media-player-accent-color: var(--primary-color)
   mini-media-player-progress-height: 8px
-
   # Papers slider colors
   paper-slider-knob-color: var(--primary-color)
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
   paper-slider-pin-color: var(--paper-slider-knob-color)
   paper-slider-active-color: var(--paper-slider-knob-color)
   paper-slider-container-color: var(--disabled-color)
-
   # Labels colors
   label-badge-background-color: var(--divider-color)
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: var(--primary-color)
   label-badge-blue: var(--light-primary-color)
-
   # Cards colors
   ha-card-background: "rgba(100, 100, 100, 0.15)"
   paper-card-background-color: var(--ha-card-background)
   paper-listbox-background-color: var(--primary-background-color)
-
   # Toggle button colors
   paper-toggle-button-checked-button-color: var(--primary-color)
   paper-toggle-button-checked-bar-color: var(--light-primary-color)
   paper-toggle-button-unchecked-button-color: var(--disabled-color)
   paper-toggle-button-unchecked-bar-color: var(--primary-background-color)
-
   # Switch colors
   switch-checked-color: var(--paper-toggle-button-checked-button-color)
   switch-unchecked-button-color: var(--paper-toggle-button-unchecked-button-color)
   switch-unchecked-color: var(--paper-toggle-button-unchecked-bar-color)
   switch-unchecked-track-color: var(--paper-toggle-button-unchecked-bar-color)
-
   # Table colors
   table-row-background-color: var(--divider-color)
   table-row-alternative-background-color: var(--secondary-background-color)
   card-background-color: var(--primary-background-color)
-
   #Animated svg icons
   weather-icon-clear-night: url("/hacsfiles/themes/dark-pink-glass/icons/clear-night.svg")
   weather-icon-cloudy: url("/hacsfiles/themes/dark-pink-glass/icons/cloudy.svg")
@@ -94,10 +75,8 @@ Dark Pink Glass:
   weather-icon-windy: url("/hacsfiles/themes/dark-pink-glass/icons/cloudy.svg")
   weather-icon-windy-variant: url("/hacsfiles/themes/dark-pink-glass/icons/partlycloudy.svg")
   weather-icon-exceptional: url("/hacsfiles/themes/dark-pink-glass/icons/exceptional.svg")
-
   # Shadown
   ha-card-box-shadow: 'inset 0px 0px 0px 0px var(--divider-color)'
-
   # HACS
   hacs-badge-color: var(--primary-color)
   link-text-color: var(--disabled-color)
