@@ -1,9 +1,7 @@
 name: Create Release
 
 on:
-  push:
-    branches: [ master ]
-#  workflow_dispatch:
+  - push
 
 jobs:
   build:
@@ -31,3 +29,4 @@ jobs:
           release_name: ${{ steps.tag_version.outputs.new_tag }}
           body: |
             Update from ${{ steps.tag_version.outputs.previous_tag }} to ${{ steps.tag_version.outputs.new_tag }}
+            Changelog: ${{ steps.tag_version.outputs.changelog }}
