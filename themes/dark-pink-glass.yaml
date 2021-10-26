@@ -84,3 +84,5 @@ Dark Pink Glass:
   google-blue-500: var(--primary-color)
   accent-color: var(--light-primary-color)
   hacs-chip-color: var(--primary-color)
+  # Header
+  header-height: 48px
