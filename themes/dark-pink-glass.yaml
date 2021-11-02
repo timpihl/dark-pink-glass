@@ -86,3 +86,5 @@ Dark Pink Glass:
   hacs-chip-color: var(--primary-color)
   # Header
   header-height: 48px
+  # Transparent popup
+  mdc-theme-surface: transparent
