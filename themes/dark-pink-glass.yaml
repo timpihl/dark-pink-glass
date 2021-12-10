@@ -5,8 +5,8 @@ Dark Pink Glass:
 
   # Header
   header-height: 48px
-  app-header-background-color: rgb(170,49,81)
-  app-header-text-color: rgb(255,255,255)
+  app-header-background-color: black #rgb(170,49,81)
+  app-header-text-color: white #rgb(255,255,255)
 
   # Change the value below 8px to 0px to remove the rounded corners
   ha-card-border-radius: 8px
